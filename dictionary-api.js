@@ -16,7 +16,7 @@ async function finddefinition(word) {
   
 }
 async function input(){
-    const word = process.argv[2]; // Get the userId parameter from the command-line arguments
+    const word = process.argv[2]; 
     if (!word) {
       console.error('Please provide a word as a command-line argument');
       return;
